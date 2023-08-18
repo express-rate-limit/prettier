@@ -1,0 +1,11 @@
+{
+	"name": "@express-rate-limit/prettier",
+	"version": "1.0.0",
+	"description": "The Prettier configuration for all express-rate-limit projects.",
+	"main": "config.js",
+	"repository": "https://github.com/express-rate-limit/prettier",
+	"files": [
+		"config.js",
+		"package.json"
+	]
+}

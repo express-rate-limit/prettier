@@ -6,6 +6,7 @@
 	"repository": "https://github.com/express-rate-limit/prettier",
 	"files": [
 		"config.js",
-		"package.json"
+		"package.json",
+		"readme.md"
 	]
 }

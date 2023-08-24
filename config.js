@@ -6,9 +6,18 @@ const config = {
 	useTabs: true,
 	singleQuote: true,
 	bracketSpacing: true,
-	trailingComma: "all",
-	proseWrap: "always",
-	endOfLine: "lf",
-};
+	trailingComma: 'all',
+	proseWrap: 'always',
+	endOfLine: 'lf',
+	overrides: [
+		{
+			files: ['package.json', 'package-lock.json'],
+			options: {
+				useTabs: false,
+				tabWidth: 2,
+			},
+		},
+	],
+}
 
-module.exports = config;
+module.exports = config

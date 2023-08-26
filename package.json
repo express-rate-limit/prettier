@@ -1,12 +1,21 @@
 {
-	"name": "@express-rate-limit/prettier",
-	"version": "1.0.0",
-	"description": "The Prettier configuration for all express-rate-limit projects.",
-	"main": "config.js",
-	"repository": "https://github.com/express-rate-limit/prettier",
-	"files": [
-		"config.js",
-		"package.json",
-		"readme.md"
-	]
+  "name": "@express-rate-limit/prettier",
+  "version": "1.0.0",
+  "description": "The Prettier configuration for all express-rate-limit projects.",
+  "main": "config.js",
+  "repository": "https://github.com/express-rate-limit/prettier",
+  "files": [
+    "config.js",
+    "package.json",
+    "readme.md"
+  ],
+  "scripts": {
+    "lint": "prettier --ignore-path .gitignore --ignore-unknown --check .",
+    "format": "npm run lint -- --write",
+    "test": "npm run lint"
+  },
+  "prettier": "./config.js",
+  "devDependencies": {
+    "prettier": "^3.0.2"
+  }
 }

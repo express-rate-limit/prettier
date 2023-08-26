@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "lint": "prettier --ignore-path .gitignore --ignore-unknown --check .",
-    "format": "npm run lint -- --write",
+    "format": "prettier --ignore-path .gitignore --ignore-unknown --write .",
     "test": "npm run lint"
   },
   "prettier": "./config.js",

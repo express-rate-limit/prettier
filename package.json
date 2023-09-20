@@ -11,8 +11,8 @@
     "readme.md"
   ],
   "scripts": {
-    "lint": "prettier --ignore-path .gitignore --ignore-unknown --check .",
-    "format": "prettier --ignore-path .gitignore --ignore-unknown --write .",
+    "lint": "prettier --ignore-unknown --check .",
+    "format": "prettier --ignore-unknown --write .",
     "test": "npm run lint"
   },
   "prettier": "./config.js",
